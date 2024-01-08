@@ -1,0 +1,27 @@
+2024-01-07 16:11:20,876|CalibrationApp|WARNING|Calibration started
+2024-01-07 16:12:01,316|CalibrationApp|WARNING|Calibration has been finished
+2024-01-07 16:12:33,476|Controller|WARNING|You have chose bg color - lightgreen & queue length - 21
+2024-01-07 16:12:37,552|GameSB|WARNING|Game Sunny Bunny started
+2024-01-07 16:14:14,420|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-07 16:14:16,479|GameSB|WARNING|The best filter is Non-filtered
+2024-01-07 16:14:16,931|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-07 16:14:18,930|GameSB|WARNING|The best filter is Non-filtered
+2024-01-07 16:14:58,901|EyeTrackController|WARNING|You have chose filter algorithm - Centroid
+2024-01-07 16:15:02,849|EyeTracker|WARNING|You choose Centroid filter algorithm
+2024-01-07 16:15:02,921|EyeTracker|WARNING|Eye Track Program starts
+2024-01-07 16:15:12,068|EyeTracker|WARNING|You choose House Category
+2024-01-07 16:15:18,938|EyeTracker|WARNING|You opened https://comfy.ua/ua/korostyshiv/
+2024-01-07 16:15:20,000|EyeTracker|WARNING|You choose House Category
+2024-01-07 16:15:36,498|EyeTracker|WARNING|You choose Rest Category
+2024-01-07 16:15:43,505|EyeTracker|WARNING|You choose House Category
+2024-01-07 16:15:46,734|EyeTracker|WARNING|You choose Eat Category
+2024-01-07 16:15:53,874|EyeTracker|WARNING|You choose Education Category
+2024-01-07 16:16:00,762|EyeTracker|WARNING|You choose Rest Category
+2024-01-07 16:16:05,400|EyeTracker|WARNING|You choose Rest Category
+2024-01-07 16:16:07,686|EyeTracker|WARNING|You choose Rest Category
+2024-01-07 16:16:19,213|EyeTracker|WARNING|You choose Eat Category
+2024-01-07 16:16:21,942|EyeTracker|WARNING|You choose Eat Category
+2024-01-07 16:16:24,294|EyeTracker|WARNING|You choose Eat Category
+2024-01-07 16:16:26,651|EyeTracker|WARNING|You choose Eat Category
+2024-01-07 16:16:32,058|EyeTracker|WARNING|You choose Eat Category
+2024-01-07 16:16:34,539|EyeTracker|WARNING|You choose Eat Category

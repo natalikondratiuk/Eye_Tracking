@@ -1,0 +1,24 @@
+2024-01-02 18:02:02,501|CalibrationApp|WARNING|Calibration started
+2024-01-02 18:02:42,971|CalibrationApp|WARNING|Calibration has been finished
+2024-01-02 18:03:20,399|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-02 18:03:23,770|GameSB|WARNING|Game Sunny Bunny started
+2024-01-02 18:05:00,627|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-02 18:05:02,388|GameSB|WARNING|The best filter is Non-filtered
+2024-01-02 18:05:02,825|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-02 18:05:04,669|GameSB|WARNING|The best filter is Non-filtered
+2024-01-02 18:05:33,641|EyeTrackController|WARNING|You have chose filter algorithm - MNK
+2024-01-02 18:05:36,387|EyeTracker|WARNING|You choose MNK filter algorithm
+2024-01-02 18:05:36,472|EyeTracker|WARNING|Eye Track Program starts
+2024-01-02 18:05:40,833|EyeTracker|WARNING|You choose Eat Category
+2024-01-02 18:05:43,118|EyeTracker|WARNING|You choose House Category
+2024-01-02 18:05:54,647|EyeTracker|WARNING|You choose Education Category
+2024-01-02 18:05:56,939|EyeTracker|WARNING|You choose House Category
+2024-01-02 18:06:10,059|EyeTracker|WARNING|You choose Education Category
+2024-01-02 18:06:12,346|EyeTracker|WARNING|You opened https://osvita.ua/
+2024-01-02 18:06:13,360|EyeTracker|WARNING|You choose Education Category
+2024-01-02 18:06:20,657|EyeTracker|WARNING|You choose House Category
+2024-01-02 18:06:22,959|EyeTracker|WARNING|You choose House Category
+2024-01-02 18:06:31,458|EyeTracker|WARNING|You choose House Category
+2024-01-02 18:06:38,741|EyeTracker|WARNING|You choose Rest Category
+2024-01-02 18:06:41,856|EyeTracker|WARNING|You choose House Category
+2024-01-02 18:06:44,351|EyeTracker|WARNING|You choose House Category
