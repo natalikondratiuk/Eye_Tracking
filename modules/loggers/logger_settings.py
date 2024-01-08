@@ -6,8 +6,12 @@ from logging.handlers import TimedRotatingFileHandler
 from datetime import datetime
 
 class LoggerSetup :
+    """
+    Створення логеру з метою
+    кращого розуміння роботи ПЗ
+    """
+
     def __init__(self) :
-        print('logger started')
         self.__logger = logging.getLogger()
         self.__logger.handlers = []
         self.__message_formatter = '%(asctime)s|%(name)s|%(levelname)s|%(message)s'
