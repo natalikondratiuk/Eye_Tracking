@@ -1,0 +1,179 @@
+2024-01-10 11:20:34,692|CalibrationApp|WARNING|Calibration started
+2024-01-10 11:21:15,094|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 11:40:43,289|CalibrationApp|WARNING|Calibration started
+2024-01-10 11:42:08,543|CalibrationApp|WARNING|Calibration started
+2024-01-10 14:54:14,094|CalibrationApp|WARNING|Calibration started
+2024-01-10 14:54:54,611|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 14:56:25,494|CalibrationApp|WARNING|Calibration started
+2024-01-10 14:57:06,019|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 14:57:39,360|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 14:57:40,716|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 14:59:16,852|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 14:59:18,932|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 14:59:19,384|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 14:59:21,453|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 14:59:44,247|EyeTrackController|WARNING|You have chose filter algorithm - Centroid
+2024-01-10 14:59:45,805|EyeTracker|WARNING|You choose Centroid filter algorithm
+2024-01-10 14:59:45,913|EyeTracker|WARNING|Eye Track Program starts
+2024-01-10 14:59:49,398|EyeTracker|WARNING|You choose Rest Category
+2024-01-10 14:59:51,663|EyeTracker|WARNING|You opened https://kontramarka.ua/uk
+2024-01-10 14:59:52,694|EyeTracker|WARNING|You choose Rest Category
+2024-01-10 14:59:59,893|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:00:09,617|EyeTracker|WARNING|You choose Rest Category
+2024-01-10 15:00:11,969|EyeTracker|WARNING|You choose Rest Category
+2024-01-10 15:00:17,044|EyeTracker|WARNING|You choose Eat Category
+2024-01-10 15:00:20,393|EyeTracker|WARNING|You opened https://metro.zakaz.ua/uk/
+2024-01-10 15:00:20,499|EyeTracker|WARNING|You choose Eat Category
+2024-01-10 15:00:23,005|EyeTracker|WARNING|You choose Eat Category
+2024-01-10 15:00:25,573|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:00:27,902|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:00:33,629|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:00:36,054|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:00:38,557|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:00:41,086|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:00:45,421|EyeTracker|WARNING|You choose Education Category
+2024-01-10 15:20:17,689|CalibrationApp|WARNING|Calibration started
+2024-01-10 15:20:58,224|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 15:21:34,520|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 15:21:37,165|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 15:23:14,301|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 15:23:16,371|GameSB|WARNING|The best filter is MNK
+2024-01-10 15:23:16,812|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 15:23:18,850|GameSB|WARNING|The best filter is MNK
+2024-01-10 15:23:52,883|EyeTrackController|WARNING|You have chose filter algorithm - MNK
+2024-01-10 15:23:55,639|EyeTracker|WARNING|You choose MNK filter algorithm
+2024-01-10 15:23:55,743|EyeTracker|WARNING|Eye Track Program starts
+2024-01-10 15:24:05,211|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:24:07,468|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:24:09,858|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:24:12,111|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:24:34,289|CalibrationApp|WARNING|Calibration started
+2024-01-10 15:25:14,740|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 15:32:07,492|CalibrationApp|WARNING|Calibration started
+2024-01-10 15:32:48,017|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 15:33:26,330|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 15:33:28,390|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 15:35:05,320|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 15:35:07,196|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 15:35:07,776|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 15:35:09,913|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 15:35:35,851|EyeTrackController|WARNING|You have chose filter algorithm - Centroid
+2024-01-10 15:35:37,392|EyeTracker|WARNING|You choose Centroid filter algorithm
+2024-01-10 15:35:37,498|EyeTracker|WARNING|Eye Track Program starts
+2024-01-10 15:35:52,016|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:37:51,514|CalibrationApp|WARNING|Calibration started
+2024-01-10 15:38:32,081|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 15:39:03,946|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 15:39:07,146|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 15:40:43,996|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 15:40:45,921|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 15:40:46,365|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 15:40:48,238|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 15:41:14,846|EyeTrackController|WARNING|You have chose filter algorithm - Centroid
+2024-01-10 15:41:16,603|EyeTracker|WARNING|You choose Centroid filter algorithm
+2024-01-10 15:41:16,696|EyeTracker|WARNING|Eye Track Program starts
+2024-01-10 15:41:26,028|EyeTracker|WARNING|You choose Eat Category
+2024-01-10 15:41:29,896|EyeTracker|WARNING|You opened https://shop.silpo.ua/?gclid=CjwKCAiAxreqBhAxEiwAfGfndGv0w0T1m4C1Ke0ZeLMkRZ8YTCFii2nckcPH9kj0P0HlKIyuKEA6GxoCkrIQAvD_BwE
+2024-01-10 15:41:31,012|EyeTracker|WARNING|You choose Eat Category
+2024-01-10 15:41:40,776|EyeTracker|WARNING|You choose Eat Category
+2024-01-10 15:41:43,102|EyeTracker|WARNING|You choose Eat Category
+2024-01-10 15:41:52,419|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:42:00,272|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:42:02,614|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:42:05,259|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:42:15,668|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:42:18,027|EyeTracker|WARNING|You choose House Category
+2024-01-10 15:42:20,398|EyeTracker|WARNING|You choose House Category
+2024-01-10 16:05:58,832|CalibrationApp|WARNING|Calibration started
+2024-01-10 16:06:39,382|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 16:07:50,400|CalibrationApp|WARNING|Calibration started
+2024-01-10 16:08:30,940|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 16:09:35,530|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 16:09:37,669|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 16:11:14,647|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 16:11:16,582|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 16:11:17,071|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 16:11:19,386|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 16:23:01,030|CalibrationApp|WARNING|Calibration started
+2024-01-10 16:23:41,512|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 16:24:18,200|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 16:24:22,236|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 16:25:59,149|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 16:26:01,093|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 16:26:01,548|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 16:26:03,527|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 16:30:21,012|CalibrationApp|WARNING|Calibration started
+2024-01-10 16:33:43,204|CalibrationApp|WARNING|Calibration started
+2024-01-10 16:34:23,730|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 16:34:57,271|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 16:34:59,882|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 16:36:36,716|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 16:36:38,555|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 16:36:39,006|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 16:36:41,025|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 16:42:13,766|CalibrationApp|WARNING|Calibration started
+2024-01-10 16:42:54,233|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 16:43:30,127|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 16:43:32,181|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 16:45:09,109|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 16:45:10,977|GameSB|WARNING|The best filter is MNK
+2024-01-10 16:45:11,426|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 16:45:13,419|GameSB|WARNING|The best filter is MNK
+2024-01-10 16:45:29,018|EyeTrackController|WARNING|You must choose filter algorithm to start Eye Track program
+2024-01-10 16:53:25,584|CalibrationApp|WARNING|Calibration started
+2024-01-10 16:54:06,036|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 16:54:52,547|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 15
+2024-01-10 16:54:55,492|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 16:56:32,493|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 16:56:34,564|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 16:56:35,021|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 16:56:37,088|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 16:56:50,188|EyeTrackController|WARNING|You must choose filter algorithm to start Eye Track program
+2024-01-10 19:06:39,683|CalibrationApp|WARNING|Calibration started
+2024-01-10 19:07:20,182|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 19:10:59,584|CalibrationApp|WARNING|Calibration started
+2024-01-10 19:11:40,046|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 19:12:27,780|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 19:12:29,426|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 19:14:06,356|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 19:14:08,419|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 19:14:08,872|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 19:14:10,902|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 19:20:55,692|CalibrationApp|WARNING|Calibration started
+2024-01-10 19:21:36,171|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 19:22:15,631|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 19:22:17,586|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 19:24:09,212|CalibrationApp|WARNING|Calibration started
+2024-01-10 19:24:49,687|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 19:25:35,968|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 19:25:37,356|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 19:27:14,165|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 19:27:16,024|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 19:27:16,493|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 19:27:18,446|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 19:29:30,559|CalibrationApp|WARNING|Calibration started
+2024-01-10 19:30:11,072|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 19:30:50,865|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 19:30:55,383|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 19:32:32,099|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 19:32:33,880|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 19:32:34,318|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 19:32:36,193|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 19:41:18,242|CalibrationApp|WARNING|Calibration started
+2024-01-10 19:41:58,759|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 19:42:30,184|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 15
+2024-01-10 19:42:31,552|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 19:44:08,347|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 19:44:10,284|GameSB|WARNING|The best filter is MNK
+2024-01-10 19:44:10,722|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 19:44:12,738|GameSB|WARNING|The best filter is MNK
+2024-01-10 19:45:35,176|CalibrationApp|WARNING|Calibration started
+2024-01-10 19:46:15,727|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 19:46:46,528|CalibrationApp|WARNING|Calibration started
+2024-01-10 19:47:27,017|CalibrationApp|WARNING|Calibration has been finished
+2024-01-10 19:48:04,194|Controller|WARNING|You have chose bg color - antiquewhite2 & queue length - 21
+2024-01-10 19:48:06,100|GameSB|WARNING|Game Sunny Bunny started
+2024-01-10 19:49:42,911|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 19:49:44,692|GameSB|WARNING|The best filter is Non-filtered
+2024-01-10 19:49:45,129|GameSB|WARNING|Game Sunny Bunny finished
+2024-01-10 19:49:47,045|GameSB|WARNING|The best filter is Non-filtered

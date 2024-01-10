@@ -1,4 +1,6 @@
 import logging
+import os
+from datetime import datetime
 
 import tkinter as tk
 from PIL import Image, ImageTk
@@ -202,6 +204,8 @@ class GameSB( tk.Tk ) :
             self.print_stat(self.dataset.get_dist_centroid(), 'роботи центроїда')
             self.print_stat(self.dataset.get_distMNK(), 'роботи МНК')
 
+            self.save_txt()
+
     def plot_data(self):
         """
         Графічний аналіз розроблених алгоритмів
@@ -218,7 +222,7 @@ class GameSB( tk.Tk ) :
         self.plotter = MatplotlibFrame(self, f'Результати роботи алгоритмів калібрування\n'
                                           f'для {self.plot_bunnies} сонячних зайчиків. '
                                           f'Довжина черги - {self.history_len}. '
-                                          f'Найкращий алгоритм калібрування - {min_algorithm} (СКВ = {min_var:.3f})', ('Consolas 18'))
+                                          f'Найкращий алгоритм клібрування - {min_algorithm} (СКВ = {min_var:.3f})', ('Consolas 18'))
         self.plotter.pack()
         self._logger.warning(f'The best filter is {log_message}')
 
@@ -228,7 +232,7 @@ class GameSB( tk.Tk ) :
         plt_hist.hist(self.dataset.get_distMNK(), bins=100, alpha=0.5, label='МНК')
         self.plotter.f.legend(loc=2)
 
-    def get_statistcs(self, dataset):
+    def __get_statistcs(self, dataset):
         """
         Отримання статистичних даних кожного датасету
         :param dataset: датасет кожного алгоритму
@@ -248,7 +252,7 @@ class GameSB( tk.Tk ) :
 
         return statistics
 
-    def print_stat(self, dataset, name):
+    def print_stat(self, dataset, name, in_file=True):
         """
         Аналітичний аналіз даних
         шляхом порівняння статистичних характеристик
@@ -257,21 +261,58 @@ class GameSB( tk.Tk ) :
         :return:
         """
 
-        dataStat = self.get_statistcs( dataset ) # статистичні дані кожного датасету
+        dataStat = self.__get_statistcs( dataset ) # статистичні дані кожного датасету
 
         print('*************************')
         print( f'Статистичні хар-ки {name}' )
         print('*************************')
-        print( f'Математичне сподівання = {dataStat[0]}' )
-        print( f'Дисперсія = {dataStat[1]}' )
-        print( f'Сігма (СКВ) = {dataStat[2]}' )
+        print( f'Математичне сподівання = {dataStat[0]:.3f}' )
+        print( f'Дисперсія = {dataStat[1]:.3f}' )
+        print( f'Сігма (СКВ) = {dataStat[2]:.3f}' )
         print('---------------------------')
+
+    def save_txt(self) :
+        stat_non_filter = self.__get_statistcs(self.dataset.get_dist_eye())
+        stat_centroid = self.__get_statistcs(self.dataset.get_dist_centroid())
+        stat_MNK = self.__get_statistcs(self.dataset.get_distMNK())
+
+        time_session = datetime.now()
+        session = f'{time_session.day}/{time_session.month}/{time_session.year} {time_session.hour}:{time_session.minute}'
+
+        stat_src = 'external\\stats'
+        if not os.path.exists(stat_src): os.makedirs(stat_src)
+
+        time_marker = datetime.now().strftime('%d-%m-%Y-%H-%M')
+        with open(f'{stat_src}\\stat_file_{time_marker}.txt', "w", encoding='utf-8') as stat_file:
+            stat_file.write(f'Визначення найкращого алгоритму калібрування для сеансу {session}')
+            stat_file.write(f'\nСтатистичні хар-ки роботи нефільтрованого значення')
+            stat_file.write('\n*************************')
+            stat_file.write(f'\nМатематичне сподівання = {stat_non_filter[0]:.3f}')
+            stat_file.write(f'\nДисперсія = {stat_non_filter[1]:.3f}')
+            stat_file.write(f'\nСігма (СКВ) = {stat_non_filter[2]:.3f}')
+            stat_file.write('\n---------------------------')
+
+            stat_file.write(f'\nСтатистичні хар-ки роботи центроїда')
+            stat_file.write('\n*************************')
+            stat_file.write(f'\nМатематичне сподівання = {stat_centroid[0]:.3f}')
+            stat_file.write(f'\nДисперсія = {stat_centroid[1]:.3f}')
+            stat_file.write(f'\nСігма (СКВ) = {stat_centroid[2]:.3f}')
+            stat_file.write('\n---------------------------')
+
+            stat_file.write(f'\nСтатистичні хар-ки роботи МНК')
+            stat_file.write('\n*************************')
+            stat_file.write(f'\nМатематичне сподівання = {stat_MNK[0]:.3f}')
+            stat_file.write(f'\nДисперсія = {stat_MNK[1]:.3f}')
+            stat_file.write(f'\nСігма (СКВ) = {stat_MNK[2]:.3f}')
+            stat_file.write('\n---------------------------\n\n')
+
+            stat_file.close()
 
     def show_min(self) :
         algorithm_set = ['Нефільтроване значення', 'Центроїд', 'МНК']
-        stat_non_filter = self.get_statistcs(self.dataset.get_dist_eye())
-        stat_centroid = self.get_statistcs(self.dataset.get_dist_centroid())
-        stat_MNK = self.get_statistcs(self.dataset.get_distMNK())
+        stat_non_filter = self.__get_statistcs(self.dataset.get_dist_eye())
+        stat_centroid = self.__get_statistcs(self.dataset.get_dist_centroid())
+        stat_MNK = self.__get_statistcs(self.dataset.get_distMNK())
 
         compare_var = [stat_non_filter[2], stat_centroid[2], stat_MNK[2]]
         comparator = np.array(compare_var)

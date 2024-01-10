@@ -3,15 +3,15 @@ import numpy as np
 class FilterCenter :
     """
     Створення кільцевої черги
-    для калібрування системи Eye Tracking
+    для фільтрів системи Eye Tracking
     """
 
-    def __init__(self, k) :
+    def __init__(self, k, init_x=960, init_y=540) :
         self.k = k # кільцева черга на основі масиву фіксованої довжини, де k - його довжина
 
         '''Масиви aX та aY проініціалізовані серединою екрану:'''
-        self.aX = np.full((self.k), 960) # 1) ширина екрану / 2
-        self.aY = np.full((self.k), 540) # 2) висота екрану / 2
+        self.aX = np.full((self.k), init_x) # 1) ширина екрану / 2
+        self.aY = np.full((self.k), init_y) # 2) висота екрану / 2
         self.tail = 0 # хвіст черги - інкрементується внаслідок додавання нового елементу до черги
 
         self.historyX = []
@@ -33,7 +33,7 @@ class FilterCenter :
         self.aY[self.tail] = self.y
         self.tail = self.tail + 1 if self.tail < self.k-1 else 0 # хвіст черги вказує на наступний елемент черги
 
-    def out_filter(self, x, y):
+    def out_filter(self, x=None, y=None):
         """
         Пошук центроїду черги
         :param x: Ох точки
@@ -44,6 +44,9 @@ class FilterCenter :
         self.x = x
         self.y = y
 
+        if x is None or y is None :
+            return np.average(self.aX), np.average(self.aY)
+
         '''Нова точка в черзі'''
         self.aX[self.tail] = self.x
         self.aY[self.tail] = self.y
@@ -51,7 +54,7 @@ class FilterCenter :
 
         return np.average(self.aX), np.average(self.aY)
 
-    def MNK(self, arr, tail) :
+    def __MNK(self, arr, tail) :
         """
         МНК-згладжування
         як один з алгоритмів зменшення
@@ -96,14 +99,18 @@ class FilterCenter :
 
         return funcMNK[-1, 0]
 
-    def out_filterMNK(self, x, y):
+    def out_filterMNK(self, x=None, y=None):
         self.x = x
         self.y = y
+
+        if x is None or y is None:
+            return self.__MNK(self.aX, self.tail), self.__MNK(self.aY, self.tail)
+
         self.aX[self.tail] = self.x
         self.aY[self.tail] = self.y
         self.tail = self.tail + 1 if self.tail < self.k-1 else 0
 
-        return self.MNK(self.aX, self.tail), self.MNK(self.aY, self.tail)
+        return self.__MNK(self.aX, self.tail), self.__MNK(self.aY, self.tail)
 
     def outNumPoints(self): return self.aX, self.aY
 
